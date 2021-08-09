@@ -1,3 +1,126 @@
 .path-card {
-  background-color: white;
-}
+    width: 350px;
+    height: 500px;
+    display: flex;
+     overflow: hidden;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 5px 10px #888888;
+
+  }
+
+
+       
+       img:hover {
+          transform: translatey(-10px) translatex(-5px) scale(1.05)
+
+       }
+    
+
+    .path-image {
+      width: 100%;
+      height: 40%;
+      background: #ddd;
+      position: absolute;
+      top: 0;
+    }
+
+      img {
+        max-width: 100%;
+        height: auto;
+         transition: ease-in-out 600ms;
+      }
+    
+
+    .path-body {
+      width: 100%;
+      height: 60%;
+      background: #fff;
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      cursor: pointer;
+    }
+
+
+      .path-info {
+        width: 80%;
+        height: 80%;
+        background: #fff;
+        position: relative;
+      }
+
+        h1 {
+          font-size: 20px;
+          font-weight: bold;
+        }
+
+        p {
+          font-size: 14px;
+          font-weight: normal;
+        }
+
+        .skill-infos {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          position: absolute;
+          bottom: 0;
+          border-top: 1px solid rgba(0, 0, 0, .2);
+          padding-top: 25px;
+        }
+
+          .skills {
+            display: flex;
+            flex-direction: column;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 12px;
+          }
+
+            .skills span {
+              font-size: 12px;
+              text-transform: uppercase;
+              opacity: 0.5;
+              letter-spacing: 1px;
+              font-weight: bold;
+            }
+          
+
+        .card-button{
+          display: block;
+          width: 100%;
+          padding: 1.5rem;
+          font-size: 2rem;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          margin-left: 60px;
+         
+          border: none;
+          border-radius: .4rem;
+         
+          cursor: pointer;
+          transition: .2s
+          
+        }
+
+            span {
+             
+              margin-left: 1rem;
+              transition: 0.2s;
+             
+            }
+
+            span:hover{
+                margin-left: 1.5rem;
+            }
+
+              
+                    
+  
+  
+  
